@@ -1,0 +1,10 @@
+//mixin
+
+//mixin con parametros
+
+@mixin footer($width, $height){
+    width: $width;
+    text-align: center;
+}
+
+ //mixin sin parametros

@@ -1,114 +1,82 @@
 /* reset */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /* estilos genericos */
-
-body{
-    background-color: rgb(0, 0, 0);
-    background-image: url(https://wallpapercave.com/wp/wp3756449.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-    padding-bottom: 3em;
-    min-height: 100vh;
-}
+body {
+  background-color: black;
+  background-image: url(https://wallpapercave.com/wp/wp3756449.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh; }
 
 /* estilos de home */
+header img {
+  width: 40%;
+  margin-top: 10px; }
 
-header{
-    background-color: rgb(102, 101, 101);
-    text-align: center;
-}
-
-header img{
-    width: 40%;
-    margin-top: 10px;
-}
-
-header nav{
-    display: inline-block ;
-}
-
-header nav ul{
-    list-style: none;
-}
-
-header nav ul li{
+header {
+  background-color: #666565;
+  text-align: center; }
+  header nav ul {
     display: inline-block;
-    margin-left: 30px;
-}
-
-header nav ul li a{
-    text-decoration: none;
-    color: rgb(199, 195, 195);
-    font-weight: bold;
-}
+    list-style: none; }
+    header nav ul li {
+      display: inline-block;
+      margin-left: 30px;
+      margin-top: 5px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #c7c3c3;
+        font-weight: bold;
+        font-size: larger; }
 
 /* estilos de main */
-main img{
-    width: 20%;
-    display: block;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+main img {
+  width: 20%;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
-main{
-    text-align: center;
-    padding: 34px;
-    color: aliceblue;
-    margin-bottom: 50px;
-    font-size: x-large;
-    display: grid;
-    grid-template-columns: repeat(3, 1rf) ;
-    grid-row: 40% 40% 20%;
-}
-
-main h2{
+main {
+  text-align: center;
+  padding: 34px;
+  color: aliceblue;
+  margin-bottom: 50px;  
+  font-size: x-large; }
+  main h2 {
     margin-top: 20px;
-    margin-bottom: 10px;
-}
+    margin-bottom: 10px; }
 
-main p{
-    margin-top: 10px;
-}
-
-main div a{
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 60px;
-}
-
-main p a{
+main p {
+  margin-top: 10px; }
+  main p a {
     text-decoration: underline;
     color: aliceblue;
-    font-size: larger;
-}
+    font-size: larger; }
 
-main div div div img{
-    width: 30%;
-}
+main div a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 60px; }
 
+main div div div img {
+  width: 30%; }
 
 /* estilos del footer */
-
-footer{
-    background-color: rgb(102, 101, 101);
-    color: aliceblue;
-    text-align: center;
-    font-size: smaller;
-    bottom: 0;
-    width: 100%;
-    padding: 1em 0;
-    position: absolute;
-}
-
-
-
+footer {
+  background-color: #666565;
+  color: aliceblue;
+  text-align: center;
+  font-size: smaller;
+  bottom: 0;
+  width: 100%;
+  padding: 1em 0;
+  position: absolute; }
